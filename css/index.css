@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+
+}
+a {
+    color: #00B7FF;
+    text-decoration: none;
+    outline: none;
+}
