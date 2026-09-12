@@ -1,14 +1,129 @@
 * {
     margin: 0;
+    font-family: "Bodoni MT", bold, serif;
+}
+
+body {
+    background-image: url("../images/poke-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 nav {
-    padding: 20px;
+    gap: 300px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+    padding: 30px;
+    background-color: white;
+    opacity: 80%;
+}
+
+nav a {
+    font-size: 80px;
+    text-decoration: none;
+    color: #7ac9f9;
+}
+
+a:hover {
+    color: #b1e46b;
+    text-decoration: underline;
+}
+
+.page {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    padding-top: 240px;
+}
+
+.oshawott {
+    height: 500px;
+    width: 500px;
+}
+
+.osh-phrase {
+    background-color: white;
+    visibility: hidden;
+    width: 130px;
+    color: #3c4c68;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 500px;
+    margin-top: -50px;
+    justify-self: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.osh-link:hover .osh-phrase {
+    visibility: visible;
+}
+
+.scraggy {
+    height: 500px;
+    width: 500px;
 
 }
-a {
-    color: #00B7FF;
-    text-decoration: none;
-    outline: none;
+
+.scr-phrase {
+    background-color: white;
+    visibility: hidden;
+    width: 130px;
+    color: #e58a1e;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 400px;
+    margin-top: -50px;
+    justify-self: center;
+    position: absolute;
+    z-index: 1;
 }
+
+.scr-link:hover .scr-phrase {
+    visibility: visible;
+}
+
+.piplup {
+    height: 500px;
+    width: 500px;
+
+}
+
+.pip-phrase {
+    background-color: white;
+    visibility: hidden;
+    width: 130px;
+    color: #4182cc;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 30px;
+    padding: 10px;
+    justify-self: center;
+    position: absolute;
+    margin-left: 520px;
+    margin-top: -60px;
+    z-index: 1;
+}
+
+.pip-link:hover .pip-phrase {
+    visibility: visible;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    justify-self: center;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
