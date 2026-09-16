@@ -20,6 +20,11 @@ nav a {
     color: #7ac9f9;
 }
 
+nav p {
+    font-size: 45px;
+    color: #7ac9f9;
+}
+
 a:hover {
     color: #eed45f;
 }
@@ -110,7 +115,7 @@ a:hover {
     visibility: visible;
 }
 
-.pokebody {
+.dexbody {
     background-image: url("../assets/grey-bg.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -118,7 +123,7 @@ a:hover {
     height: 1500px;
 }
 
-.pokepage {
+.dexpage {
     height: 100hv;
     width: 1100px;
     margin-top: 130px;
@@ -181,4 +186,93 @@ footer {
     background-color: white;
     opacity: 80%;
 
+}
+#water-type {
+    background-image: url("../assets/waterfall.jpeg");
+    color: #263152;
+}
+
+#water-type .main {
+    background-color: rgb(60 115 184 / 0.8);
+}
+
+#water-type .main img {
+    border: 5px dashed #3c73b8;
+}
+
+.pokebody {
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 710px;
+}
+
+.pokepage {
+    height: 100vh;
+}
+
+.main {
+    height: 370px;
+    padding: 80px;
+    display: block;
+    justify-items: center;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 15px;
+}
+
+.main img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px dashed #3c73b8;
+    background: white;
+}
+
+.quote {
+    justify-items: center;
+    padding: 60px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    border: #355794 solid 5px;
+}
+
+.information {
+    height: 780px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(60 123 195 / 0.76);
+}
+
+.stats {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bubble {
+    border: #355794 5px solid;
+    border-radius: 15px;
+    background-color: white;
+    padding-left: 50px;
+    margin-top: 40px;
+}
+
+.stats h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.stats li {
+    list-style-type: none;
+    padding-bottom: 20px;
+    font-size: 40px;
+    margin-left: -35px;
+}
+
+.stats ul {
+    display: grid;
+    grid-template-columns: auto auto;
 }
