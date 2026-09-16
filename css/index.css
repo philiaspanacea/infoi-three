@@ -225,8 +225,11 @@ footer {
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    border: 5px dashed #3c73b8;
     background: white;
+}
+
+#water-type .quote {
+    border: #355794 solid 5px;
 }
 
 .quote {
@@ -234,14 +237,16 @@ footer {
     padding: 60px;
     font-size: 30px;
     letter-spacing: 5px;
-    border: #355794 solid 5px;
+}
+
+#water-type .information {
+    background-color: rgb(60 123 195 / 0.76);
 }
 
 .information {
     height: 780px;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(60 123 195 / 0.76);
 }
 
 .stats {
@@ -251,8 +256,11 @@ footer {
     gap: 10px;
 }
 
-.bubble {
+#water-type .bubble {
     border: #355794 5px solid;
+}
+
+.bubble {
     border-radius: 15px;
     background-color: white;
     padding-left: 50px;
