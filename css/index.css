@@ -185,23 +185,49 @@ footer {
     padding: 20px;
     background-color: white;
     opacity: 80%;
-
 }
+
+footer a {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#water-type footer a {
+    color: #3c73b8;
+}
+
+#dark-type footer a {
+    color: #682222
+}
+
 #water-type {
     background-image: url("../assets/waterfall.jpeg");
+    background-size: auto;
     color: #263152;
+}
+
+#dark-type {
+    background-image: url("../assets/molten-rock.jpg");
+    background-size: cover;
 }
 
 #water-type .main {
     background-color: rgb(60 115 184 / 0.8);
 }
 
+#dark-type .main {
+    background-color: rgb(108 35 35 / 0.8);
+}
+
 #water-type .main img {
     border: 5px dashed #3c73b8;
 }
 
+#dark-type .main img {
+    border: 5px dashed #9D2424;
+}
+
 .pokebody {
-    background-size: auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 710px;
@@ -225,6 +251,7 @@ footer {
     height: 250px;
     width: 250px;
     border-radius: 50%;
+    padding: 10px;
     background: white;
 }
 
@@ -232,10 +259,14 @@ footer {
     border: #355794 solid 5px;
 }
 
+#dark-type .quote {
+    border: #6c2323 solid 5px;
+}
+
 .quote {
     justify-items: center;
     padding: 60px;
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: 5px;
 }
 
@@ -243,8 +274,12 @@ footer {
     background-color: rgb(60 123 195 / 0.76);
 }
 
+#dark-type .information {
+    background-color: rgb(108 35 35 / 0.76)
+}
+
 .information {
-    height: 780px;
+    height: 850px;
     display: flex;
     justify-content: space-around;
 }
@@ -258,6 +293,10 @@ footer {
 
 #water-type .bubble {
     border: #355794 5px solid;
+}
+
+#dark-type .bubble {
+    border: #6c2323 5px solid;
 }
 
 .bubble {
