@@ -3,7 +3,7 @@ console.log("Hello World!");
 const hp = 50
 const attack = 75
 const defense = 70
-const dateTime = new Date(year,month,day,hours,minutes,seconds);
+const dateTime = new Date();
 
 let userGreet = prompt("Hello there, what is your name?");
 
