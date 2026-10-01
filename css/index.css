@@ -221,10 +221,12 @@ footer a {
 
 #water-type .main img {
     border: 5px dashed #3c73b8;
+    box-sizing: border-box;
 }
 
 #dark-type .main img {
     border: 5px dashed #9D2424;
+    box-sizing: border-box;
 }
 
 .pokebody {
